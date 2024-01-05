@@ -1,0 +1,1223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'Prompt', sans-serif;
+}
+
+a{
+    color: white;
+}
+
+ิ.xb{
+    font-weight: 800;
+}
+
+.w25{width: 25%;}
+.w50{width: 50%;}
+.w75{width: 75%;}
+.w80{width: 80%;}
+.w100{width: 100%;}
+
+.al-cent{align-items: center;}
+
+.icon-btn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.137);
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    transition: all 0.3s;
+}
+.btn-line img {
+  width: 20px;
+}
+.icon-social {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.head{
+    font-size: 57px;
+    font-weight: 400;
+}
+
+body {
+    background-color: #1E1E1E;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+/* ///////////////// menubar ////////////////////// */ 
+
+.menubar {
+    display: none;
+}
+
+.menu-icon {
+    position: absolute;
+    right: 10px;
+    display: none;
+    cursor: pointer;
+    z-index: 10;
+    color: transparent;
+}
+
+.menu-icon img {
+    width: 40px;
+}
+
+.menu-drop {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+
+.lang a {
+    margin: 0 15px;
+}
+
+.social-dropp {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.roadmap_img_mb {
+    display: none;
+}
+
+/* */
+
+.contain{
+    position: relative;
+}
+
+.container{
+    margin: auto;
+}
+
+.nav_menu{
+    display: flex;
+}
+
+.nav_menu_list{
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.sea_icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #2081E2;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opensea_menu{
+    font-weight: 600;
+}
+.pointer {
+    cursor: pointer;
+}
+
+
+.first_hotel {
+    margin-top: 50px ;
+    height: 800px;
+    font-weight: 200;
+}
+
+.section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_section_list{
+    display: flex;
+    align-items: center;
+}
+
+.icon_sect{
+    background-color: rgba(255, 255, 255, 0.33);
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+}
+
+.nm_sect{
+    font-size: 25px;
+    font-weight: 800;
+}
+.txt_sect{
+    font-size: 13px;
+}
+
+.txt_section{
+    margin-left: 20px;
+}
+
+.become_btn{
+    width: 310px;
+    height: 75px;
+    border: 0;
+    border-radius: 22px;
+    background: linear-gradient(120.03deg, #FD5F6A -12.99%, #A33DC2 50.69%, #54309B 99.17%);
+    box-shadow: 0px 18px 74px rgba(255, 255, 255, 0.22);
+    /* font-size: 19px;
+    font-weight: 500; */
+    color: white;
+    
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.discord_join_btn {
+    position: fixed;
+    right: 40px;
+    bottom: 60px;
+    background-color: rgba(150, 59, 188, 0.15);
+    border-radius: 21px;
+    backdrop-filter: blur(32px);
+    width: 333px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.5226);
+    z-index: 99;
+}
+
+.txt_discord_join {
+    margin-left: 20px;
+}
+
+.who_is_aigent h1{
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.whois_txt{
+    width: 50%;
+    margin-left: 30px;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 151.02%;
+    text-align: justify;
+}
+
+.whois_img{
+    width: 50%;
+}
+.whois_img img{
+    width: 100%;
+    box-shadow: 68px 22px 250px 0px rgba(55, 44, 181, 0.62);
+}
+
+.nftclub{
+    margin-top: 120px;
+    margin: auto;
+}
+
+.js-sa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft_img{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 50%;
+
+}
+
+.nft_img img{
+    width: 80%;
+
+}
+
+.nft_txt {
+    width: 60%;
+}
+
+.nft_txt h1 {
+    text-align: left;
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.nft_txt2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 136.4%;
+    color: #C0C0C0;
+}
+
+.nft_txt3 {
+    font-size: 17px;
+    font-weight: 200;
+    color: #C0C0C0;
+}
+
+.btn_become_two {
+    width: 310px;
+    height: 75px;
+    font-size: 30px;
+    font-weight: bold;
+
+    background: linear-gradient(120.03deg, #FD5F6A -12.99%, #A33DC2 50.69%, #54309B 99.17%);
+    box-shadow: 0px 18px 74px rgba(255, 255, 255, 0.22);
+    border-radius: 22px;
+    color: white;
+    border: 0;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.nft_picture img {
+    width: 15%;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.nft_picture {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.roadmap {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.txt_teams {
+    background-color: rgba(217, 217, 217, 0.3);
+    border-radius: 10px;
+    width: 25%;
+    padding: 15px;
+    text-align: justify;
+}
+
+.teams h2 ,h1 {
+    text-align: center;
+}
+
+
+.img_teams {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img_teams img {
+    width: 120px;
+    border-radius: 100px;
+    margin: 0 5px;
+
+}
+
+.txt_name{
+    text-align: center;
+    font-size: 10px;
+}
+
+.txt_name b,span{
+    text-transform: uppercase;
+}
+
+.txt_name span{
+    font-weight: 200;
+}
+
+.txt_name b{
+    font-weight: 500;
+}
+
+.cpt{
+    text-transform: capitalize;
+}
+
+.cs{
+    color: yellow;
+}
+.tms{
+    color: rgb(255, 47, 127);
+    font-weight:bold;
+}
+
+.text_name_teams {
+    margin:0 10px 20px 10px;
+    padding: 10px ;
+    text-align: center;
+}
+
+.teams .contain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.utility {
+    margin-top: 400px;
+}
+
+.utility h1 {
+    font-size: 100px ;
+}
+
+.utility h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #fa186e;
+}
+
+.utility_ps {
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+}
+.utility_h {
+    text-align: center;
+}
+
+.txt_utility {
+    width: 100%;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.u_h {
+    margin: 0 10px;
+    border-bottom: 1px solid #fff;
+    font-size: 35px;
+}
+
+.diss_none{
+    display: none;
+}
+
+.txt_head_faq {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+    margin: 0 25px;
+}
+
+.head_faq {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.cd_cp {
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.cd_cp:hover{
+    color: rgba(255, 255, 255, 0.75);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.txt_faq span {
+    margin: auto;
+    color: #b4b4b4;
+}
+
+.txt_faq {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.txt_faq b{
+    cursor: pointer;
+}
+
+.img_partner img {
+    height: 100%;
+}
+
+.img_partner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg_nft_club {
+    position: absolute;
+    width: 100%;
+}
+
+.whois_txt ul{
+    text-align: left !important;
+    padding-left: 8%;
+}
+
+
+
+.bg_teams {
+    width: 100%;
+    position: absolute;
+}
+
+.bg_utility {
+    width: 100%;
+    position: absolute;
+}
+
+.bg_utility img {
+    float: right;
+}
+
+.wrp-buttons{
+    text-align: right;
+    padding: 0 2.5%;
+}
+
+.text-price{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.text-price br{
+    display: none;
+}
+.buy_nft {
+    width:  240px;
+    height: 65px;
+    /* position: absolute; */
+    /* left: 50%;
+    transform: translate(-50%,0);
+    margin-top: -20px;
+    font-weight: 700; */
+    background-color: #fa186e;
+    border: 0;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+
+.buy_lite_paper {
+    width: 240px;
+    height: 65px;
+    background-color: transparent;
+    border: 0;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border:2px solid white;
+    cursor: pointer;
+}
+
+.drop_faq {
+    display: none;
+}
+
+.buy_page {
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(120.03deg, #FD5F6A -12.99%, #A33DC2 50.69%, #54309B 99.17%);
+    position: fixed;
+    display: flex;
+    right: 0;
+    z-index: 10;
+    display: none;
+}
+
+.subout{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sub_icon {
+    width: 20%;
+    background-color: white;
+    padding: 5px;
+    border-radius:10px ;
+}
+
+.sub_sec_one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ///////////// footer /////////////////// */
+
+footer {
+    width: 100%;
+    background-color: #211f2a;
+    color: white;
+}
+
+.in-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-txt {
+    font-size: 1rem;
+    color: #c0c0c06b;
+    font-weight: 200;
+    padding: 10px 0;
+}
+
+.footer-txt a {
+    color: white;
+}
+
+.footer {
+    width: 20%;
+    margin-top: 20px
+}
+
+.footer a {
+    color: white;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+.footer-img {
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-img {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ml-20 {
+    text-align: center;
+}
+
+.download img {
+    width: 50%;
+    margin: 20px 50px;
+}
+
+.download h3 {
+    text-align: center;
+}
+
+
+/* /////////////////////////////////////////// */ 
+
+/* Discord_button */
+
+.join2 {
+    position: fixed;
+    top: 80%;
+    right: 100px;
+    z-index: 2;
+}
+
+.btn-discord {
+    width: 200px;
+    transition: all 0.3s;
+    cursor: pointer;
+    padding: 18px 3rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.103);
+    margin-right: 5%;
+}
+
+.btn-discord:hover {
+    transition: all 0.3s;
+    box-shadow: 0 0 10px 1px #ffffff;
+}
+
+/* /////////////////////////////////////////// */
+
+/* Responsive */
+
+@media only screen and (min-width:2000px) {
+    .nft_picture img {
+        width: 15%;
+        border-radius: 8%;
+        margin: 2%;
+    }
+}
+
+@media only screen and (max-width:1370px) {
+    .utility h1 {
+        font-size: 80px ;
+    }
+}
+
+@media only screen and (max-width:1360px) {
+    .d-img {
+        width: auto;
+    }
+    .txt_teams {
+        width: 100%;
+    }
+    .img_teams {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .dflexwreb {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .w50 {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        /* justify-content: center; */
+        justify-content: left;
+        margin-left: 5%;
+    }
+
+    .logo_h img {
+        width: 120px;
+    }
+
+    .img_partner img{
+        margin: 15px;
+    }
+    .img_partner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .icon-social,
+    .nav_menu {
+        display: none;
+    }
+
+    .section {
+        flex-wrap: wrap;
+    }
+
+    .nft_img {
+        display: block;
+    }
+
+    .w100-rs ,h1{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center !important; 
+    }
+
+    .diss-none {
+        display: flex;
+        margin-top: 20px;
+        width: auto;
+    }
+
+    .btn-discord-txt {
+        display: none;
+    }
+    .btn-discord {
+        width: auto;
+        border-radius: 10px;
+        padding: 13px;
+        margin-right: 10px;
+    }
+    .join2 {
+        right: 20px;
+    }
+
+    .become_btn {
+        text-align: center;
+    }
+    .btn_center {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nft_txt2 {
+        display: block;
+    }
+
+    .txt_utility{
+        width: 100%;
+    }
+
+    .menubar {
+        width: 100%;
+        position: absolute;
+        background-color: #2c2c2c;
+        display: none;
+        flex-wrap: wrap;
+        z-index: 4;
+    }
+    .menu-icon {
+        font-size: 2rem;
+        color: white;
+    }
+    .menu-icon {
+        display: block;
+    }
+    
+    .sea_icon {
+        margin-left: 0;
+    }
+    
+    .nav_menu_list {
+        margin: 0;
+    }
+
+    .nft_txt3 {
+        margin: 5%;
+    }
+
+         
+    .wrp-buttons{
+        text-align: center;
+        padding: 0 2.5%;
+    }
+    .text-price{
+        font-size: 26px;
+        margin-right: 0;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .text-price br{
+        display: block;
+    }
+    .buy_nft {
+        width:  190px;
+        height: 55px;
+        font-size: 22px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+
+    .buy_lite_paper {
+        width:  190px;
+        height: 55px;
+        font-size: 22px;
+    }
+
+    .become_btn,
+    .btn_become_two{
+        width: 290px;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .icon_section_list {
+        width: 100%;
+    }
+    .xb {
+        font-size: 57px;
+    }
+    .who_is_aigent h1 , .nft_txt h1{
+        font-size: 30px;
+    }
+
+    .utility h1 {
+        font-size: 50px ;
+    }
+
+    .txt_utility {
+        font-size: 18px;
+    }
+    .u_h {
+
+        font-size: 20px;
+    }
+
+    .utility h2 {
+        font-size: 30px;
+    }
+    .utility {
+    margin-top: 200px !important ;
+    }
+
+    .nft_picture {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .nft_picture img {
+        width: 40%;
+        margin: 10px;
+    }
+   
+
+}
+
+@media only screen and (max-width: 655px) {
+    .btn-email {
+        display: block;
+    }
+    .in-member-token,
+    .txt {
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2,
+    .membership h2 {
+        font-size: 1rem;
+    }
+    .main-header {
+        width: 95%;
+        padding: 9rem 0;
+        margin: auto;
+    }
+    .icon-box-container {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .icon-box-container .box-icon {
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .aigent-club-descript {
+        width: 95%;
+    }
+    .text-header h1 {
+        font-size: 1.5rem;
+        width: 95%;
+        margin: auto;
+    }
+    .txt-list {
+        width: 95%;
+    }
+    .faq-in-txt {
+        font-size: 14px;
+    }
+    .footer {
+        font-size: 13px;
+        width: 30%;
+        margin-top: 20px;
+        height: 350px;
+    }
+    .footer a {
+        color: white;
+        font-weight: 200;
+        margin: 10px 0;
+    }
+    .footer-logo {
+        margin-top: 12px;
+        width: auto;
+    }
+    .footer-img {
+        margin: 20px 0;
+    }
+    footer {
+        flex-wrap: wrap;
+        text-align: start;
+    }
+    .btn-email {
+        width: 100%;
+    }
+    .wel-button {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .wel-btn1 {
+        width: 250px;
+        margin: 20px auto;
+    }
+    .wel-btn2 {
+        margin: 20px auto;
+    }
+    .join {
+        display: flex;
+    }
+    .welcome {
+        padding: 0;
+        text-align: center;
+    }
+    .wel-txt {
+        padding: 0;
+        text-align: center;
+    }
+    .wel-txt2 {
+        text-align: center;
+    }
+    .condition-head {
+        padding: 10px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .condition-txt {
+        text-align: center;
+        margin: 10px;
+        font-size: 0.9rem;
+    }
+    .condition-btn {
+        width: 100%;
+        margin: 6rem 0;
+        display: flex;
+    }
+    .con-btn {
+        margin: auto;
+    }
+    .condition {
+        margin: 0;
+    }
+    .who-list {
+        width: 100%;
+    }
+    .ml-20 {
+        width: 90%;
+        margin: auto;
+    }
+    .bg , .bg_teams , .bg_nft_club , .utility_ps {
+        object-fit: cover;
+        height: 700px;
+        width: 100%;
+        object-position: center;
+    }
+    .utility_ps {
+        object-fit: cover;
+        height: 350px;
+        width: 100%;
+
+    }
+}
+
+@media only screen and (max-width: 637px) {
+    .text_name_teams {
+        width: 20%;
+    }
+
+    .img_teams img {
+        width: 100%;
+        border-radius: 100px;
+        margin: 0 5px;
+    
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .in-footer {
+        width: 90%;
+        flex-wrap: wrap;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .footer {
+        width: 100%;
+        height: auto;
+    }
+    .download img {
+        width: 50%;
+    }
+    .footer-txt {
+        text-align: start;
+        font-size: 1rem;
+    }
+    .download h3 {
+        text-align: start;
+        font-size: 2rem;
+    }
+    .footer h3 {
+        font-size: 2rem;
+    }
+    .roadmap_img_mb {
+        display: block;
+    }
+    .roadmap_img_dt {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .icon-box-container {
+        width: 100%;
+        padding: 2rem 0rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .phone-img img {
+        margin: auto;
+        width: 100%;
+        filter: blur(0);
+        opacity: 1;
+        cursor: pointer;
+        transition: all 0.30s;
+    }
+    .d-img {
+        display: block;
+    }
+    .download img {
+        margin: 15px auto;
+    }
+    .footer-img {
+        width: 50%;
+    }
+
+    .w80 {
+        width: 90%;
+        margin: auto;
+    }
+    .head , .xb{
+        font-size: 45px;
+    }
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  #modalBtn{
+    cursor: pointer;
+  }
+  /* The Close Button */
+  .btn-close {
+    color: black;
+    right: 0;
+    top:0;
+    font-size: 48px;
+    position: absolute;
+    z-index: 100;
+    
+    width: 40px;
+    text-align: center;
+    font-weight: normal;
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  .btn-close:hover,
+  .btn-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
